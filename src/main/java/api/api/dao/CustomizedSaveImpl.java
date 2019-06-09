@@ -1,4 +1,4 @@
-package api.api.repository;
+package api.api.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.cassandra.core.CassandraOperations;

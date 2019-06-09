@@ -1,4 +1,4 @@
-package api.api.domain;
+package api.api.model;
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;

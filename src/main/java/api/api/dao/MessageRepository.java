@@ -1,6 +1,6 @@
-package api.api.repository;
+package api.api.dao;
 
-import api.api.domain.Message;
+import api.api.model.Message;
 import org.springframework.data.cassandra.repository.AllowFiltering;
 import org.springframework.data.cassandra.repository.CassandraRepository;
 
