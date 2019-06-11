@@ -15,8 +15,8 @@ Simple REST API with Cassandra
   <h3>Usage examples:<h3>
   
   1) Storing message into Cassandra:
-     <br> <br>POST /api/message -d {"email": "john123@example.com", "title": "No title", "content":"Simple text", "magic_number":130}<br>
+     <br>POST /api/message -d {"email": "john123@example.com", "title": "No title", "content":"Simple text", "magic_number":130}
   2) Getting all messages with email specified int the {emailValue} path variable: 
-  <br> <br>GET /api/john123@example.com<br>
+  <br>GET /api/john123@example.com
   3) Sending messages with magic_number specified in the request body:
-    <br><br>POST /api/send -d {"magic_number":130}<br>
+    <br>POST /api/send -d {"magic_number":130}
