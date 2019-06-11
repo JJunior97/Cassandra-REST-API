@@ -6,13 +6,13 @@
 Simple REST API with Cassandra
 >>>>>>> aed262bbb723150e3a9c884b6cf154277e68e85c
 
-  <b><h3>Endpoints:<h3><b>
+  <h3>Endpoints:<h3>
   
   1) POST /api/message
   2) GET /api/{emailValue}
   3) POST /api/send
   
-  <b><h3>Usage examples:<h3><b>
+  <h3>Usage examples:<h3>
   
   1) Storing message into Cassandra:
      <br> POST /api/message -d {"email": "john123@example.com", "title": "No title", "content":"Simple text", "magic_number":130}
